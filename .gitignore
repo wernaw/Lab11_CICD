@@ -1,3 +1,5 @@
 .DS_Store
 .env
 .idea/
+/sentiment_app/__pycache__
+/tests/__pycache__
