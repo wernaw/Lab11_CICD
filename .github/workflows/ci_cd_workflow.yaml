@@ -18,8 +18,8 @@ jobs:
    steps:
      - name: Show run info
        run: |
-       echo "SHA: ${{ github.sha }}"
-       echo "Run ID: ${{ github.run_id }}"
+         echo "SHA: ${{ github.sha }}"
+         echo "Run ID: ${{ github.run_id }}"
 
      - name: Show region
        run: echo "Deploying to ${{ env.AWS_REGION }}"
